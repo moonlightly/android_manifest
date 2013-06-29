@@ -33,7 +33,6 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" remote="cfx-exp" revision="jb-devel" groups="twrp" />
   <project path="cts" name="platform/cts" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" groups="pdk" />
@@ -334,12 +333,14 @@
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/asus/tf101" name="device_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="device,asus,tf101" />
+  <!-- <project path="device/asus/grouper" name="device_asus_grouper" remote="cfx-exp" revision="jb-devel" groups="device,asus,grouper" /> -->
 
   <!-- Kernels -->
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel" groups="kernel,moto,xoom" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,tf101" />
   <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="cfx-exp" revision="jb-devel" groups="kernel,samsung,tuna" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel" groups="kernel,samsung,manta" />
+  <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,grouper" />
 
   <!-- Vendors -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel" groups="vendor,asus" />
