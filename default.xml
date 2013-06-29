@@ -347,6 +347,10 @@
   <project path="vendor/moto" name="vendor_moto" remote="cfx-exp" revision="jb-devel" groups="vendor,moto" />
   <project path="vendor/broadcom" name="vendor_broadcom" remote="cfx-exp" revision="jb-devel" groups="vendor,broadcom" />
   <project path="vendor/nvidia" name="vendor_nvidia" remote="cfx-exp" revision="jb-devel" groups="vendor,nvidia" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cfx-exp" revision="jb-devel" groups="vendor,imgtec" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cfx-exp" revision="jb-devel" groups="vendor,widevine" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="cfx-exp" revision="jb-devel" groups="vendor,invensense" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="cfx-exp" revision="jb-devel" groups="vendor,nxp" />
 
   <!-- Packages -->
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
