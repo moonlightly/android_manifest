@@ -351,6 +351,7 @@
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cfx-exp" revision="jb-devel" groups="vendor,widevine" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="cfx-exp" revision="jb-devel" groups="vendor,invensense" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="cfx-exp" revision="jb-devel" groups="vendor,nxp" />
+  <project path="vendor/qcom/mako" name="vendor_qcom_mako" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
 
   <!-- Packages -->
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
